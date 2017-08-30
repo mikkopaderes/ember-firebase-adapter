@@ -1,6 +1,6 @@
 # ember-firebase-adapter
 
-This README outlines the details of collaborating on this Ember addon.
+Unofficial Ember Adapter and Serializer for Firebase
 
 ## Installation
 
