@@ -1,6 +1,6 @@
 {
   "name": "ember-firebase-adapter",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Unofficial Ember Adapter and Serializer for Firebase",
   "keywords": [
     "ember-addon"
