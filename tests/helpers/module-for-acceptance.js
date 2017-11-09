@@ -1,5 +1,5 @@
 import { module } from 'qunit';
-import Ember from 'ember';
+import { resolve } from 'rsvp';
 import startApp from '../helpers/start-app';
 import destroyApp from '../helpers/destroy-app';
 
@@ -10,8 +10,6 @@ import stubFirebase from 'dummy/tests/helpers/stub-firebase';
 import unStubFirebase from 'dummy/tests/helpers/unstub-firebase';
 
 import getFixtureData from 'dummy/tests/helpers/fixture-data';
-
-const { RSVP: { resolve } } = Ember;
 
 export default function(name, options = {}) {
   module(name, {
